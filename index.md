@@ -31,7 +31,7 @@ Try the tool: [**Download ExE**](https://github.com/alsheikhaminulislam/Supreme-
 - **Code signing on Windows** (soon)
 - **Translations** (soon)
 - **Hotkeys** (soon)
-- **Online sharing** (soon)
+- **Online sharing** (soon) 
 
 ## 🛠️ Installation Steps
 
