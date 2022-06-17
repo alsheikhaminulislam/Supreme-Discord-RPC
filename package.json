@@ -1,0 +1,72 @@
+{
+  "name": "supreme-discord-rpc",
+  "version": "0.0.1",
+  "description": "Cross-platform Discord Rich Presence Generator, WITH BUTTONS!",
+  "main": "./main.js",
+  "bin": {
+    "rpcmaker": "./main.js"
+  },
+  "scripts": {
+    "run": "node ./main.js && exit 1",
+    "start": "electron main.js",
+    "dist": "electron-builder"
+  },
+  "keywords": [
+    "discord",
+    "rpc",
+    "discord-rpc",
+    "cli",
+    "rich-presence",
+    "richpresence",
+    "rpcmaker",
+    "drpc",
+    "supreme-discord-rpc"
+  ],
+  "author": {
+    "name": "Al Sheikh Aminul Islam",
+    "email": "alsheikhAminulislam@gmail.com",
+    "url": "https://alsheikhaminulislam.github.io/Supreme-Discord-RPC/"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://buymeacoffee.com/that1calculator"
+  },
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/alsheikhaminulislam/Supreme-Discord-RPC/issues",
+    "email": "alsheikhAminulislam@gmail.com"
+  },
+  "homepage": "https://github.com/alsheikhaminulislam/Supreme-Discord-RPC",
+  "repository": "https://github.com/alsheikhaminulislam/Supreme-Discord-RPC",
+  "dependencies": {
+    "@electron/remote": "^1.1.0",
+    "app-builder-bin": "^4.1.2",
+    "child_process": "^1.0.2",
+    "copy-to-clipboard": "^3.3.1",
+    "discord-rpc": "^4.0.1",
+    "jsonfile": "^6.1.0",
+    "latest-version": "^5.1.0",
+    "open-file-explorer": "^1.0.2",
+    "utils": "^0.3.1"
+  },
+  "pkg": {
+    "assets": [
+      "./node_modules/"
+    ]
+  },
+  "devDependencies": {
+    "electron": "^13.0.0",
+    "electron-builder": "^22.10.5",
+    "fs": "^0.0.1-security"
+  },
+  "build": {
+    "appId": "com.supreme.app",
+    "target": "NSIS",
+    "productName": "Supreme Discord RPC",
+    "icon":"./assets/icon.png",
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false
+    }
+  }
+}
